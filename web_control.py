@@ -44,7 +44,7 @@ button_style = """
 st.markdown(button_style, unsafe_allow_html=True)
 
 # Create Streamlit buttons with names
-button_names = ["cubical light", "cubical Fan", "   Light  ", "  Fan  "]
+button_names = ["light", "cubical Fan", "   Cubical Light  ", "  Fan  "]
 for button_number, button_name in enumerate(button_names, start=1):
     if st.button(button_name):
         on_button_press(button_number, button_name)
